@@ -1,0 +1,128 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-07-01T16:44:13.825Z",
+    "end": "2024-07-01T16:44:37.992Z",
+    "duration": 24167,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "07f5301a-6601-427d-902b-07e02703fb40",
+      "title": "",
+      "fullFile": "cypress\\e2e\\testes.cy.js",
+      "file": "cypress\\e2e\\testes.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "64e49478-29a8-44dd-8dcd-ddaebb97a05c",
+          "title": "Desafio QA Front-End",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "CT001 - Adicionar cliente",
+              "fullTitle": "Desafio QA Front-End CT001 - Adicionar cliente",
+              "timedOut": null,
+              "duration": 13372,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      \"\\\\testes.cy.js\\\\Desafio QA Front-End -- CT001 - Adicionar cliente -- after each hook.png\"\n    ]\n  ]\n}",
+              "code": "_desafio.default.acessarPagina();\n_desafio.default.mudarVersao();\n_desafio.default.adicionarCustomer();\n_desafio.default.informarName();\n_desafio.default.informarLastName();\n_desafio.default.informarcontactFirsName();\n_desafio.default.informarPhone();\n_desafio.default.informarAdressLine1();\n_desafio.default.informarAdressLine2();\n_desafio.default.informarCity();\n_desafio.default.informarState();\n_desafio.default.informarPostalCode();\n_desafio.default.informarCountry();\n_desafio.default.selecionarFromEmployeer();\n_desafio.default.informarCreditLimit();\n_desafio.default.informarDeleted();\n_desafio.default.clicarEmSave();\n_desafio.default.validarMensagemSucesso();",
+              "err": {},
+              "uuid": "ade4c8af-aaaf-4a0c-b283-dab8445e0c98",
+              "parentUUID": "64e49478-29a8-44dd-8dcd-ddaebb97a05c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "CT002 - Deletar cliente Criado",
+              "fullTitle": "Desafio QA Front-End CT002 - Deletar cliente Criado",
+              "timedOut": null,
+              "duration": 6127,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      \"\\\\testes.cy.js\\\\Desafio QA Front-End -- CT002 - Deletar cliente Criado -- after each hook.png\"\n    ]\n  ]\n}",
+              "code": "_desafio.default.acessarPagina();\n_desafio.default.mudarVersao();\n_desafio.default.buscarClienteCriado();\n_desafio.default.selecionaClienteCriado();\n_desafio.default.clicarEmDelete();\n_desafio.default.validarMensagemDelete();\n_desafio.default.deletarClienteCriado();\n_desafio.default.mensagemDeletadoComSucesso();",
+              "err": {},
+              "uuid": "ff5eced4-34a5-4ef2-85c2-2f1105f080ce",
+              "parentUUID": "64e49478-29a8-44dd-8dcd-ddaebb97a05c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ade4c8af-aaaf-4a0c-b283-dab8445e0c98",
+            "ff5eced4-34a5-4ef2-85c2-2f1105f080ce"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 19499,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress\\reports\\.jsons",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "screenshotsFolder": "cypress/screenshots/testes.cy.js",
+        "screenshotsOnlyOnFailure": false,
+        "mochaFile": "cypress/reports/mocha.json",
+        "quiet": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
