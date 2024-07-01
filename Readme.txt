@@ -1,4 +1,4 @@
-Passos para instalação e execução dos testes automatizados do Desafio QA
+Passos para a instalação e execução dos testes automatizados do Desafio QA
 
 1 - Instale Node.js
 
