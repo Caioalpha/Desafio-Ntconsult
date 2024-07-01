@@ -1,3 +1,5 @@
+Passos para instalação e execução dos testes automatizados do Desafio QA
+
 1 - Instale Node.js
 
 Acesse o site https://nodejs.org/pt e faça o download, em seguida execute o arquivo baixado
